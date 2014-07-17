@@ -1,0 +1,1 @@
+alias kl="tail -f /var/log/kern.log"
