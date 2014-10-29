@@ -291,15 +291,21 @@ command! -complete=file -nargs=+ Python3 call s:ExecuteInShell('Python3 '.<q-arg
 "}}}
 
 
+"{{{ Setting for Gu
+
 "filetype plugin on
 syntax on
 
 autocmd FileType html,javascript setlocal expandtab shiftwidth=2 tabstop=2
 autocmd FileType python setlocal expandtab shiftwidth=4 softtabstop=4
-autocmd FileType c,cpp setlocal expandtab shiftwidth=4 softtabstop=4
+"autocmd FileType c,cpp setlocal expandtab shiftwidth=4 softtabstop=4
 
 "Updating the taglist
 autocmd BufWritePost *.cpp :TlistUpdate
+
+set colorcolumn=80
+
+"}}}
 
 
 
