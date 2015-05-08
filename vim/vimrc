@@ -305,6 +305,8 @@ autocmd BufWritePost *.cpp :TlistUpdate
 
 set colorcolumn=80
 
+set clipboard=unnamedplus
+
 "}}}
 
 
