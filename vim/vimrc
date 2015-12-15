@@ -307,6 +307,8 @@ set colorcolumn=80
 
 set clipboard=unnamedplus
 
+color desert
+
 "}}}
 
 
